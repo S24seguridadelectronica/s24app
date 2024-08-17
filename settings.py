@@ -1,3 +1,8 @@
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
 SECRET_KEY = 'django-insecure-9=d(s=kc++z3hw8u2pri-dz^_75i$z_je&_o65y-#cmsw3iby$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
